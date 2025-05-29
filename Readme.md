@@ -121,3 +121,15 @@
 count: {$sum: 1}  
 }})
 - ![Output](2-1.PNG)
+
+### 3. Product Names and Prices, Sorted by Price (Descending):
+- db.products.aggregate(  
+ { $project: {  
+      _id: 0,  
+      name: 1,  
+      price: 1  
+    } },{  
+    $sort: {  
+      price: -1  
+    }})
+- 
