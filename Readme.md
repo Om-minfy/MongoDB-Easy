@@ -114,3 +114,10 @@
     location: 'USA'  
   }  
 }
+
+### 2. Count Products per Category:
+- db.products.aggregate(  
+  {$group: {_id: "$category",  
+count: {$sum: 1}  
+}})
+- ![Output](2-1.PNG)
