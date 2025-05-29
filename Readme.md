@@ -41,7 +41,8 @@
     name: 'TechGlobe',  
     location: 'USA'  
   }  
-}  
+}
+
 {  
   _id: ObjectId('683839e1f9d81ec0940a023f'),  
   name: 'Wireless Mouse',  
@@ -58,7 +59,8 @@
     name: 'GadgetPro',  
     location: 'China'  
   }  
-}  
+}
+
 {  
   _id: ObjectId('683839e1f9d81ec0940a0240'),  
   name: 'Mechanical Keyboard',  
@@ -75,7 +77,8 @@
     name: 'TechGlobe',  
     location: 'USA'  
   }  
-}  
+}
+
 {  
   _id: ObjectId('683839e1f9d81ec0940a0244'),  
   name: 'Smartwatch',  
@@ -92,7 +95,8 @@
     name: 'GadgetPro',  
     location: 'China'  
   }  
-}  
+}
+
 {  
   _id: ObjectId('683839e1f9d81ec0940a0247'),  
   name: 'Bluetooth Speaker',  
