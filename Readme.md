@@ -128,8 +128,8 @@ count: {$sum: 1}
       _id: 0,
       name: 1,
       price: 1
-    } },{
+    } }, {
     $sort: {
       price: -1
-    }})
+    } } )
 - 
